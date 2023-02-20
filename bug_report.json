@@ -1,1 +1,11 @@
-
+{
+  "id": 1,
+  "description": "bug",
+  "steps_to_reproduce": "steps",
+  "expected_result": "All right",
+  "actual_result": "All fu@#$d up",
+  "attachments": "I don't have any proof",
+  "priority": "Blocker",
+  "severity": "High",
+  "environment": "washtub"
+}
