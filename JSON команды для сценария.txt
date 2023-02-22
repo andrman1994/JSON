@@ -1,0 +1,66 @@
+1. git clone https://github.com/andrman1994/JSON.git - Клонировать репозиторий JSON на локальный компьютер
+
+2. cd JSON - Перейти на локальный репозиторий
+   touch new.json - Внутри локального JSON создать файл “new.json”
+
+3. git add new.json - Добавить файл под гит
+
+4. git commit -m "+new.json" - Закоммитить файл
+
+5. git push - Отправить файл на внешний GitHub репозиторий
+
+6. vim new.json - Открыть файл new.json в текстовом редакторе VIM
+   i - Начать редактирование
+
+{
+        "person_name": "Andrei",
+        "person_surname": "Zhdaniuk",
+        "person_patronymic": "Vitalievich",
+        "person_age": 28,
+        "person_number_of_pets": 0,
+        "person_desired_salary": "9999999999999999999999999999999999999999999$"
+} - изменения в формате JSON
+
+   ESC - Завершить редактирование
+   :wq - Завершить работу редактора VIM с сохранением изменений
+
+7. git add . - Добавить файл под гит
+   git commit -m "update new.json" - Закоммитить файл
+   git push - Отправить изменения на внешний репозиторий
+
+8. touch preferences.json - Создать файл preferences.json
+
+9. vim preferences.json - Открыть файл preferences.json в текстовом редакторе VIM
+   i - Начать редактирование
+
+{
+        "person_favourite_film": "The Dark Knight",
+        "person_fovourite_series": "Game of Thrones",
+        "person_favourite_dish": "Pizza with ham",
+        "person_favourite_time_of_the_year": "Summer",
+        "person_desired_country_to_visit": "United Arab Emirates"
+}  - изменения в формате JSON
+
+   ESC - Завершить редактирование
+   :wq - Завершить работу редактора VIM с сохранением изменений
+
+10. touch sklls.json - Создать файл sklls.json
+    vim sklls.json - Открыть файл sklls.json в текстовом редакторе VIM
+    i - Начать редактирование
+
+ {
+         "person_skill_1": "Test-cases",
+         "person_skill_2": "Terminal",
+         "person_skill_3": "JSON",
+         "person_skill_4": "Postman",
+         "pesron_skill_5": "SQL"
+ }  - изменения в формате JSON
+
+   ESC - Завершить редактирование
+   :wq - Завершить работу редактора VIM с сохранением изменений
+
+11. git add . - Добавить файлы под гит
+    git commit -m "+ preferences.json + skills.json" - Закоммитить файлы
+    git push - Отправить сразу 2 файла на внешний репозиторий
+
+12. git pull - Синхронизировать внешний и локальный репозиторий JSON
