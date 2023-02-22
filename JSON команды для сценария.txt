@@ -48,13 +48,13 @@
     vim sklls.json - Открыть файл sklls.json в текстовом редакторе VIM
     i - Начать редактирование
 
- {
-         "person_skill_1": "Test-cases",
-         "person_skill_2": "Terminal",
-         "person_skill_3": "JSON",
-         "person_skill_4": "Postman",
-         "pesron_skill_5": "SQL"
- }  - изменения в формате JSON
+{
+        "person_skill_1": "Test-cases",
+        "person_skill_2": "Terminal",
+        "person_skill_3": "JSON",
+        "person_skill_4": "Postman",
+        "pesron_skill_5": "SQL"
+}  - изменения в формате JSON
 
    ESC - Завершить редактирование
    :wq - Завершить работу редактора VIM с сохранением изменений
@@ -63,4 +63,4 @@
     git commit -m "+ preferences.json + skills.json" - Закоммитить файлы
     git push - Отправить сразу 2 файла на внешний репозиторий
 
-12. git pull - Синхронизировать внешний и локальный репозиторий JSON
+12. git pull - Синхронизировать внешний и локальный репозиторий JSON (после создания баг репорта на внешнем репозитории)
